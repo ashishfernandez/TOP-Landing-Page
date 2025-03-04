@@ -129,9 +129,8 @@ body {
     background-color: #f9faf8;
     display: block;
     height: auto;
-    min-height: 500px;
+    min-height: 400px;
     width: 100%;
-    padding: 20px;
     margin: 0;
 }
 
@@ -140,9 +139,11 @@ body {
         font-family: 'Arial';
         font-size: 36px;
         font-weight: 900;
+        text-align: center;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-top: 40px;
 }
     /* Gallery side-by-side images and subtext */
 
@@ -155,6 +156,7 @@ body {
         justify-content: center;
         box-sizing: border-box;
         gap: 40px;
+        flex-wrap: wrap;
     }
 
         .gallery-image {
@@ -168,13 +170,14 @@ body {
             .gallery-image img {
                 height: 200px;
                 width: auto;
+                justify-content: center;
                 object-fit: contain;
             }
 
             .gallery-image p {
                 color: #1f2937;
                 font-family: 'Arial';
-                justify-content: center;
+                text-align: center;
                 font-size: 14px;
                 flex-wrap: wrap;
             }
