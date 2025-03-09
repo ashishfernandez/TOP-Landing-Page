@@ -7,14 +7,11 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 30px;  /* Also will lower row from browser top */
+    padding: 30px 150px 80px 150px; /* top right bottom left */
     display: flex;
     height: 30px;
     width: 100%;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 80px;
     box-sizing: border-box;
 }
 
@@ -230,8 +227,8 @@ body {
     background-color: #f9faf8;
     align-items: center;
     justify-items: center;  
-    width: 100vw;
-    max-height: 400px;
+    width: 100%;
+    max-height: 200px;
     padding: 150px;
 }
 
@@ -271,7 +268,7 @@ body {
             font-family: 'Arial';
             font-size: 18px;
             color: #f9faf8;
-            border-width: 2px;
+            border-width: 3px;
             border-color: #f9faf8;
             border-style: solid;
             border-radius: 8px;
@@ -282,3 +279,23 @@ body {
             justify-content: center;
             cursor: pointer;
         }
+
+
+/* Footer container */
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 30px 150px 80px 150px; /* top right bottom left */
+    box-sizing: border-box;
+}
+
+    .footer-text {
+        font-family: 'Arial';
+        font-size: 18px;
+        color: #f9faf8;
+    }
